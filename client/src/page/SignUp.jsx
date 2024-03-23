@@ -1,9 +1,8 @@
 import React, { useState } from "react";
-
 import { useNavigate } from "react-router-dom";
-
 import { useDispatch } from "react-redux";
-import { createUser } from "../redux/authuser/action";
+import { createUser } from "../redux/authReducer/action";
+
 
 export const SignUp = () => {
   const [formData, setFormData] = useState({

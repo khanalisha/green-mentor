@@ -1,14 +1,8 @@
 import React, { useState } from "react";
-import { useDispatch } from "react-redux";
-
-// import { useToast } from "./custom/ToastProvider";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import {
-  POST_LOGIN_ERROR,
-  POST_LOGIN_LOADING,
-  POST_LOGIN_SUCCESS,
-} from "../redux/authuser/actionType";
+import { POST_LOGIN_ERROR, POST_LOGIN_LOADING, POST_LOGIN_SUCCESS } from "../redux/authReducer/actionType";
+import { useDispatch } from "react-redux";
 
 export const Login = () => {
   const navigate = useNavigate();
