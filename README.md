@@ -4,6 +4,11 @@ This is a web-based task management application developed using the MERN stack (
 ## Deployment:
 [Want to see live »](https://green-nine-ivory.vercel.app/)
 
+### Design Image
+![image](![image](https://github.com/khanalisha/green-mentor/assets/123863034/b9e3fd4e-363a-4bab-bfd5-75bbab1dbd85)
+)
+
+
 ### Requirements
 ## Backend (Node.js and Express.js):
 Set up a Node.js server using Express.js.
@@ -29,5 +34,23 @@ Allow users to sign up and log in.
 Ensure that only authenticated users can create, update, and delete tasks.
 Styling:
 Apply CSS (Tailwind) to styleapplication and make it user-friendly.
+
+
+## Tools used on this project
+- Visual Studio Code
+-npx create-react-app my-project
+-cd my-project
+-npm install -D tailwindcss
+-npx tailwindcss init
+
+
+### To set up the development environment:
+
+- Clone the repository: git clone https://github.com/khanalisha/react-card-manager.git
+- Navigate to the project directory: cd react-card-manager
+- Install dependencies: npm install
+- Start the development server: npm start
+
+Your app is ready to be deployed!
 
 
