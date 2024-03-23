@@ -1,5 +1,5 @@
 ### Task Management Application (MERN Stack)
-This is a web-based task management application developed using the MERN stack (MongoDB/MySQL, Express.js, React, Node.js). It allows users to manage their tasks efficiently with features such as adding, updating, deleting, and viewing tasks.
+This is a web-based task management application developed using the MERN stack (MongoDB, Express.js, React, Node.js). It allows users to manage their tasks efficiently with features such as adding, updating, deleting, and viewing tasks.
 
 ## Deployment:
 [Want to see live »](https://green-nine-ivory.vercel.app/)
