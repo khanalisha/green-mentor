@@ -13,6 +13,8 @@ export const Dashboard = () => {
   console.log(isAuth, "userAuth");
   // localStorage.setItem("avatar", loggedInUser.avatar);
   const avatar = localStorage.getItem("avatar");
+  const name = localStorage.getItem("name");
+  const email = localStorage.getItem("email");
 
   console.log(avatar, "avatar");
 
@@ -55,10 +57,10 @@ export const Dashboard = () => {
           <img src={avatar} alt="" className="w-20 h-20 rounded-full" />
           <div className="pt-2 ">
             <p className="text-base font-semibold leading-none text-gray-900 dark:text-white pt-4">
-              {loggedInUser.name}
+              {name}
             </p>
             <p className=" mb-3 text-sm font-normal hover:underline">
-              {loggedInUser.email}
+              {email}
             </p>
           </div>
         </div>

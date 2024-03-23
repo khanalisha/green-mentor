@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
-import { POST_LOGIN_ERROR, POST_LOGIN_LOADING, POST_LOGIN_SUCCESS } from "../redux/authReducer/actionType";
+import {
+  POST_LOGIN_ERROR,
+  POST_LOGIN_LOADING,
+  POST_LOGIN_SUCCESS,
+} from "../redux/authReducer/actionType";
 import { useDispatch } from "react-redux";
 
 export const Login = () => {
@@ -41,6 +45,8 @@ export const Login = () => {
           avatar: `${process.env.REACT_APP_API_URL}/${user.avatar}`, //http:locahost:8080/images/24123412341234/jp
         };
         localStorage.setItem("avatar", userWithProfile.avatar);
+        localStorage.setItem("name", userWithProfile.name);
+        localStorage.setItem("email", userWithProfile.email);
         console.log(userWithProfile.avatar, "login2");
         dispatch({
           type: POST_LOGIN_SUCCESS,
