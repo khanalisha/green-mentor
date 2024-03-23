@@ -5,7 +5,10 @@ This is a web-based task management application developed using the MERN stack (
 [Want to see live »](https://green-nine-ivory.vercel.app/)
 
 ### Design Image
-(![image](https://github.com/khanalisha/green-mentor/assets/123863034/b9e3fd4e-363a-4bab-bfd5-75bbab1dbd85))
+![image](https://github.com/khanalisha/green-mentor/assets/123863034/b9e3fd4e-363a-4bab-bfd5-75bbab1dbd85)
+
+![image](https://github.com/khanalisha/green-mentor/assets/123863034/1e0beed5-b36f-48a2-b63c-008fe79a2a7f)
+
 
 
 
